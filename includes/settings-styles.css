@@ -1,0 +1,213 @@
+.portfolio-player-settings {
+    margin: 20px 0;
+}
+
+.portfolio-player-settings h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tab-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    margin-right: 5px;
+    border-radius: 5px 5px 0 0;
+    transition: background-color 0.3s;
+}
+
+.tab:hover {
+    background-color: #e0e0e0;
+}
+
+.tab.active {
+    background-color: #0073aa;
+    color: #fff;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-content h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.form-table th {
+    width: 150px;
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+.form-table td {
+    padding-top: 15px;
+}
+
+.form-table .regular-text {
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-table .description {
+    margin-top: 5px;
+    color: #666;
+}
+
+#url-preview {
+    margin-top: 5px;
+    color: #0073aa;
+}
+
+#player-colors .form-table td {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hex-input {
+    width: 100px !important;
+    padding: 5px;
+}
+
+#songs-table {
+    margin-bottom: 20px;
+}
+
+#songs-table th,
+#songs-table td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#songs-table input[type="text"],
+#songs-table input[type="url"] {
+    width: 100%;
+    padding: 5px;
+}
+
+#songs-table .remove-song {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
+
+#songs-table .dashicons-move {
+    cursor: move;
+    font-size: 20px;
+    color: #666;
+}
+
+#add-song {
+    margin-top: 10px;
+}
+
+.submit-button {
+    margin-top: 20px;
+    text-align: left; /* 改為靠左對齊 */
+}
+
+.button-primary {
+    background-color: #0073aa;
+    border-color: #0073aa;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    background-color: #005d87;
+    border-color: #005d87;
+}
+
+.portfolio-url-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.portfolio-url-section h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.url-display {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio-url {
+    flex: 1;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#copy-url,
+#go-to-url {
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+#copy-url {
+    background-color: #555;
+    border-color: #555;
+    color: #fff;
+}
+
+#copy-url:hover {
+    background-color: #444;
+    border-color: #444;
+}
+
+#go-to-url {
+    background-color: #0073aa;
+    border-color: #0073aa;
+    color: #fff;
+}
+
+#go-to-url:hover {
+    background-color: #005d87;
+    border-color: #005d87;
+}
+
+.error {
+    background-color: #ffe6e6;
+    border: 1px solid #ff9999;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.error p {
+    margin: 0;
+    color: #d63638;
+}
